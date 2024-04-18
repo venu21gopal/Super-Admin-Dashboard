@@ -1,0 +1,131 @@
+.cards-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.bodyy21{
+margin-left: 100px;
+}
+
+.cards-1 .red {
+  background-color: #f43f5e;
+}
+
+.cards-1 .blue {
+  background-color: #3b82f6;
+}
+
+.cards-1 .green {
+  background-color: #22c55e;
+}
+.cards-1 .purple {
+  background-color: #9722c5;
+}
+
+.cards-1 .card {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+  margin-left: 20px;
+  margin-top: -70px;
+}
+
+.cards-1 .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+@media (300px <= width <= 600px){
+  .cards-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-1 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  text-align: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 20px;
+    margin-right: 600px;
+  }
+  .cards-1 .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+}
+
+/*cards*/
+.cards-total {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 300px;
+}
+
+.cards-total .red {
+  background-color: #ffffff;
+}
+
+.cards-total .blue {
+  background-color: #ffffff;
+}
+
+.cards-total .green {
+  background-color: #ffffff;
+}
+
+.cards-total .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 850px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: 10px;
+}
+
+.cards-total .cards p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+@media (300px <= width <= 600px){
+  .cards-total .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: 400ms;
+    margin-top: 10px;
+    
+  }
+}
+
+
+

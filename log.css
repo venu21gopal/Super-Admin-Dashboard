@@ -1,0 +1,32 @@
+.cards-total {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .cards-total .red {
+    background-color: #ffffff;
+  }
+  
+  
+  .cards-total .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: 850px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: 400ms;
+    margin-top: 10px;
+  }
+  
+  .cards-total .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+

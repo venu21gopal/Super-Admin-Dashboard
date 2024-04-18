@@ -1,0 +1,23 @@
+.but {
+    height: 40px;
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px; /* Adjust margin for smaller screens */
+}
+
+.but1 {
+    background-color: #5e81f4;
+    color: white;
+    width: 110px;
+    border-color: aliceblue;
+}
+
+@media (min-width: 768px) {
+    /* Add styles for larger screens if necessary */
+    .but {
+        margin-left: 900px; /* Restore margin for larger screens */
+    }
+}

@@ -1,0 +1,31 @@
+.grapes{
+ text-align: end;
+  margin-top: 10px;
+}
+
+
+
+.grapes-1{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+
+  }
+.grapes-2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.grapes-3{
+    background-color: rgb(15, 15, 190);
+    color: white;
+    width: 90%;
+    margin-top: 30px;
+    padding: 5px;
+}
+

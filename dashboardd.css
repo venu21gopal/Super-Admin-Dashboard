@@ -1,0 +1,121 @@
+.cards-total {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: end;
+  }
+  @media (300px <= width <= 600px){
+    .cards-total {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        margin-left: 20px;
+        align-items: Start;
+      }
+
+  }
+
+  .text-start1{
+   margin-right: 400px;
+  }
+  .text-start2{
+    margin-right: 450px;
+  }
+
+  @media (300px <= width <= 600px){
+    .text-start1{
+        
+        font-size: 25px;
+       }
+       .text-start2{
+         
+         font-size: 25px;
+       }
+  }
+
+  .cards-total .red {
+    background-color: #ff0000;
+  }
+  
+  .cards-total .blue {
+    background-color: #ffd900;
+  }
+  
+  .cards-total .green {
+    background-color: #2600ff;
+  }
+  
+  .cards-total .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: 400ms;
+    margin-top: 10px;
+  }
+  
+  .cards-total .cards p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  @media (300px <= width <= 600px){
+    .cards-total .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      height: 150px;
+      width: 250px;
+      border-radius: 10px;
+      color: black;
+      cursor: pointer;
+      transition: 400ms;
+      margin-top: 0px;
+      
+      
+    }
+  }
+
+  .orange{
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (300px <= width <= 600px){
+    .orange{
+        display: flex;
+        flex-direction: column;
+      }
+  }
+
+.orange-1{
+width: 300px;
+height: 770px;
+background-color: #ffffff;
+margin-top: 20px;
+border-radius: 10px;
+background-color: blueviolet;
+}
+
+@media (300px <= width <= 600px){
+    .orange-1{
+        width: 300px;
+        height: 400px;
+        background-color: #ffffff;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color: blueviolet;
+        }   
+}
+

@@ -1,0 +1,237 @@
+.addmission22{
+    color: rgb(255, 255, 255);
+   padding: 5px;
+ 
+    
+}
+.bodyy21{
+  margin-left: 100px;
+}
+.addmission1{
+    margin-left: 440px;
+    color: red;
+    
+}
+
+.studentinfo1{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+
+
+.white{
+    display: flex;
+    flex-direction: row;
+}
+
+.inpuut1 {
+    width: 380px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+  }
+  .displaay1 {
+    margin: 5px;
+    
+  }
+  .fileeee1{
+    margin-top: 15px;
+    margin-left: 10px;
+      }
+      .fileeee2{
+        margin-top: -18px;
+        margin-left: 10px;
+      }
+    
+      .fileee2 input {
+      
+        width: 380px;
+        padding: 3px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+        outline: none;
+        color: dimgray;
+      }
+      .ffileee{
+        display: flex;
+        flex-direction: column;
+      }
+      .displaay12{
+        margin-top: 45px;
+        margin-left: 10px;
+      }
+
+      .black{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .buttonn5611{
+        display: flex;
+        flex-direction: row;
+        margin-left: 390px;
+        margin-top: 20px;
+      }
+      .buttonn511 {
+        background-color: royalblue;
+        width: 150px;
+        transition: none; 
+       /* Remove transition effect */
+      }
+      
+      .buttonn511:hover {
+        /* Remove hover effect */
+        background-color: royalblue;
+      }
+    
+      .buttonn611 {
+        background-color: red;
+        width: 150px;
+        transition: none; 
+        /* Remove transition effect */
+      }
+      
+      .buttonn611:hover {
+        /* Remove hover effect */
+        background-color:red;
+      }
+
+      .inpuutt1{
+        width: 750px;
+        padding: 5px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+        outline: none;
+        color: dimgray;
+        
+      }
+
+      @media (300px <= width <= 600px){
+
+        .addmission22{
+          color: rgb(255, 255, 255);
+          
+          font-size: 12px;
+          
+      }
+      .addmission1{
+          margin-left: 30px;
+          color: red;
+          
+      }
+      
+      .studentinfo1{
+          background-color: blue;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+          margin-top: 30px;
+          }
+      
+      
+      .white{
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .inpuut1 {
+          width: 300px;
+          padding: 5px;
+          border: none;
+          border-radius: 4px;
+          box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+          outline: none;
+          color: dimgray;
+          
+          
+        }
+        .displaay1 {
+          margin: 5px;
+          
+        }
+        .fileee1{
+          margin-top: 15px;
+          margin-left: 10px;
+            }
+            .fileee2{
+              margin-top: -18px;
+              margin-left: 10px;
+            }
+          
+            .fileee2 input {
+            
+              width: 300px;
+              padding: 3px;
+              border: none;
+              border-radius: 4px;
+              box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+              outline: none;
+              color: dimgray;
+            }
+            .ffilee{
+              display: flex;
+              flex-direction: column;
+            }
+            .displaay12{
+              margin-top: 45px;
+              margin-left: 10px;
+            }
+      
+            .black{
+              display: flex;
+              flex-direction: column;
+            }
+      
+            .buttonn5611{
+              display: flex;
+              flex-direction: row;
+              margin-left: 10px;
+              margin-top: 20px;
+            }
+            .buttonn511 {
+              background-color: royalblue;
+              width: 150px;
+              transition: none; 
+             /* Remove transition effect */
+            }
+            
+            .buttonn511:hover {
+              /* Remove hover effect */
+              background-color: royalblue;
+            }
+          
+            .buttonn611 {
+              background-color: red;
+              width: 150px;
+              transition: none; 
+              /* Remove transition effect */
+            }
+            
+            .buttonn611:hover {
+              /* Remove hover effect */
+              background-color:red;
+            }
+      
+            .inpuutt1{
+              width: 300px;
+              padding: 5px;
+              border: none;
+              border-radius: 4px;
+              box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+              outline: none;
+              color: dimgray;
+              margin-left: 5px;
+            }
+      }

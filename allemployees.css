@@ -1,0 +1,140 @@
+.InputContainer1 {
+    height: 40px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .bodyy21{
+    margin-left: 100px;
+  }
+  .iinput1 {
+    width: 450px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+  }
+  
+  .labelforsearch1 {
+    cursor: text;
+    padding: 0px 12px;
+  }
+
+  .ccards1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .ccards1 .red {
+    background-color: #f43f5e;
+  }
+  
+  
+  
+  .ccards1 .ccard1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 20px;
+  }
+  
+  .ccards1 .ccard1 h2.ttip1 {
+    font-size: 1em;
+    font-weight: 700;
+    
+  }
+  
+  .ttip1 h2{
+    margin-top: 100px;
+  }
+
+  @media (300px <= width <= 600px){
+
+    .InputContainer1 {
+      height: 40px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      padding-left: 15px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+    .iinput1 {
+      width: 450px;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
+      caret-color: rgb(255, 81, 0);
+    }
+    
+    .labelforsearch1 {
+      cursor: text;
+      padding: 0px 12px;
+    }
+  
+    .ccards1 {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    
+    .ccards1 .red {
+      background-color: #f43f5e;
+    }
+    
+    
+    
+    .ccards1 .ccard1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      height: 150px;
+      width: 150px;
+      border-radius: 100px;
+      color: white;
+      cursor: pointer;
+      transition: 400ms;
+      margin-left: 70px;
+    }
+    
+    .ccards1 .ccard1 h2.ttip1 {
+      font-size: 1em;
+      font-weight: 700;
+      
+    }
+    
+    .ttip1 h2{
+      margin-top: 100px;
+    }
+  }

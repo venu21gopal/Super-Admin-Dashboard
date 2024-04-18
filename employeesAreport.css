@@ -1,0 +1,316 @@
+.redd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+
+.bbutton3333 {
+    background-color: royalblue;
+    width: 80px;
+    transition: none; 
+    margin-left: 0px;
+    /* Remove transition effect */
+  }
+  
+  .bbutton3333:hover {
+    /* Remove hover effect */
+    background-color: royalblue;
+  }
+  .ddropdownButton{
+    background-color: royalblue;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 80px;
+    transition: none; 
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .ddropdownButton:hover{
+    background-color: royalblue;
+  }
+
+  .InputContainerrr11 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    margin-left: 350px;
+    margin-top: 10px;
+  }
+  
+  .iiinput1111 {
+    width: 450px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+  }
+  
+  .llabelforsearch1111 {
+    cursor: text;
+    padding: 0px 12px;
+  }
+  .red{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .red-46{
+    display: flex;
+    flex-direction: row;
+    }
+    .red-47{
+      display: flex;
+      flex-direction: row;
+      }
+      .red-48{
+        display: flex;
+        flex-direction: row;
+        }
+        .red-49{
+          display: flex;
+          flex-direction: row;
+          }
+  
+
+  .table-211, td, th {  
+    border: 1px solid #e6e6e6;
+    text-align: center;
+  }
+  
+  .table-211 {
+    border-collapse: collapse;
+    width: 80%;
+  
+  }
+  
+  th, td {
+    padding: 15px;
+    
+  }
+  
+  .display{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .details{
+    text-align: center;
+  }
+  /* table-2*/
+  
+  .table-211, td, th {  
+    border: 1px solid #e0dfdf;
+    text-align: center;
+  }
+  
+  .table-211{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+  tr:hover {
+    background-color: #dfdddd; /* Change the background color to your desired hover color */
+  }
+  
+  .display {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .details {
+    text-align: center;
+  }
+  .buttonnn33333 {
+    background-color: royalblue;
+    width: 90px;
+    transition: none; 
+    
+  }
+  
+  .buttonnn33333:hover {
+    /* Remove hover effect */
+    background-color: royalblue;
+  }
+  .greenn{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  @media (300px <= width <= 600px){
+
+    .redd{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+  
+  
+  .bbutton3333 {
+      background-color: royalblue;
+      width: 80px;
+      transition: none; 
+      margin-left: 0px;
+      /* Remove transition effect */
+    }
+    
+    .bbutton3333:hover {
+      /* Remove hover effect */
+      background-color: royalblue;
+    }
+    .ddropdownButton{
+      background-color: royalblue;
+      color: white;
+      height: 40px;
+      border-radius: 5px;
+      width: 80px;
+      transition: none; 
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+    .ddropdownButton:hover{
+      background-color: royalblue;
+    }
+  
+    .InputContainerrr11 {
+      height: 40px;
+      width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      padding-left: 15px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .iiinput1111 {
+      width: 450px;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
+      caret-color: rgb(255, 81, 0);
+   
+    }
+    
+    .llabelforsearch1111 {
+      cursor: text;
+      padding: 0px 12px;
+     
+    }
+    .redd{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .red-46{
+      display: flex;
+      flex-direction: row;
+      }
+
+      .red-47{
+        display: flex;
+        flex-direction: column;
+        }
+        .red-48{
+          display: flex;
+          flex-direction: column;
+          }
+          .red-49{
+            display: flex;
+            flex-direction: column;
+            }
+    
+  
+    .table-211, td, th {  
+      border: 1px solid #e6e6e6;
+      text-align: center;
+    }
+    
+    .table-211 {
+      border-collapse: collapse;
+      width: 80%;
+    
+    }
+    
+    th, td {
+      padding: 15px;
+      
+    }
+    
+    .display{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .details{
+      text-align: center;
+    }
+    /* table-2*/
+    
+    .table-211, td, th {  
+      border: 1px solid #e0dfdf;
+      text-align: center;
+    }
+    
+    .table-211{
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 15px;
+    }
+    
+    tr:hover {
+      background-color: #dfdddd; /* Change the background color to your desired hover color */
+    }
+    
+    .display {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    .details {
+      text-align: center;
+    }
+    .buttonnn33333 {
+      background-color: royalblue;
+      width: 90px;
+      transition: none; 
+      
+    }
+    
+    .buttonnn33333:hover {
+      /* Remove hover effect */
+      background-color: royalblue;
+    }
+    .greenn{
+      display: flex;
+      flex-direction: row-reverse;
+      margin-right: 120px;
+    } 
+  }
+  
+  
+  

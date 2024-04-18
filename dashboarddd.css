@@ -1,0 +1,164 @@
+.card-total {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 300px;
+  height: 700px;
+}
+
+
+.card-total .card-red {
+  background-color: rgb(248, 225, 225);
+  width: 180px;
+  height: 100px;
+}
+
+.card-total .card-blue {
+  background-color: #ffffff;
+}
+
+.card-total .card-green {
+  background-color: #ffffff;
+}
+.card-total .card-green1 {
+  background-color: #ffffff;
+}
+.card-total .card-green2 {
+  background-color: #ffffff;
+}
+.card-total .card-green3 {
+  background-color: #ffffff;
+}
+.card-total .card-green4 {
+  background-color:rgb(174, 171, 237);
+}
+
+.card-total .card-red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 720px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: 10px;
+  margin-left: 100px;
+  
+}
+
+.card-total .card p.tipp {
+  font-size: 1em;
+  font-weight: 700;
+}
+.card-total .card-blue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 750px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: -10px;
+  margin-left: 100px;
+  
+}
+.card-total .card-green {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 80px;
+  width: 750px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: -10px;
+  margin-left: 100px;
+  
+}
+
+.card-total .card-green1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 80px;
+  width: 750px;
+  border-radius: 10px;
+  color: rgb(255, 69, 69);
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: -10px;
+  margin-left: 100px;
+  
+}
+.card-total .card-green2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 80px;
+  width: 750px;
+  border-radius: 10px;
+  color: rgb(255, 69, 69);
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: -10px;
+  margin-left: 100px;
+  
+}
+.para{
+  margin-left: 210px;
+  color: rgb(174, 171, 237);
+  font-family: "Poppins", sans-serif;
+  
+  font-size: 1.25rem;
+}
+.exam{
+  color: rgb(174, 171, 237);;
+}
+.card-total .card-green3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 600px;
+  width: 370px;
+  border-radius: 10px;
+  color: rgb(255, 69, 69);
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: -780px;
+  margin-left: -300px;
+  
+}
+.card-total .card-green4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  color: rgb(255, 69, 69);
+  cursor: pointer;
+  transition: 400ms;
+  margin-top: -280px;
+  margin-left: 10px;
+  
+}

@@ -1,0 +1,142 @@
+.brown{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.brown-1{
+    color: blue;
+   margin-left: 50px;
+  padding-top: 40px;
+}
+.inppuut1 {
+    width: 380px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+  .dispplaay1 {
+    margin: 5px;
+    
+  }
+  .innpuut1{
+    width: 380px;
+    height: 100px;
+    padding: 10px;
+    border: solid 1px rgb(82, 82, 240);
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .fiillee2{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .fiillee2 input {
+  
+    width: 380px;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+  }
+
+  .button233 {
+    background-color: royalblue;
+    width: 150px;
+    transition: none; 
+    margin-top: 40px;
+    margin-left: 150px;
+   /* Remove transition effect */
+  }
+  
+  .button233:hover {
+    /* Remove hover effect */
+    background-color: royalblue;
+  }
+
+  @media (300px <= width <= 600px){
+    .brown{
+      width: 350px;
+      height: 500px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 10px;
+  }
+  .brown-1{
+      color: blue;
+     margin-left: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+  
+  }
+  .inppuut1 {
+      width: 300px;
+      padding: 5px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+      outline: none;
+      color: dimgray;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    .dispplaay1 {
+      margin: 5px;
+      
+    }
+    .innpuut1{
+      width: 300px;
+      height: 100px;
+      padding: 10px;
+      border: solid 1px rgb(82, 82, 240);
+      border-radius: 10px;
+      box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+      outline: none;
+      color: dimgray;
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+    .fiillee2{
+      margin-top: 20px;
+      margin-left: 15px;
+    }
+  
+    .fiillee2 input {
+    
+      width: 300px;
+      padding: 3px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+      outline: none;
+      color: dimgray;
+    }
+  
+    .button233 {
+      background-color: royalblue;
+      width: 150px;
+      transition: none; 
+      margin-top: 40px;
+      margin-left: 90px;
+     /* Remove transition effect */
+    }
+    
+    .button233:hover {
+      /* Remove hover effect */
+      background-color: royalblue;
+    }
+
+  }

@@ -1,0 +1,118 @@
+.pine{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apple-33{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 350px;
+    text-align: center;
+    
+}
+
+
+  .fiilee2{
+    margin-top: -18px;
+    margin-left: 10px;
+  }
+
+  .inpuuut111 {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+.InputContainerr1 {
+height: 40px;
+width: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(255, 255, 255);
+border-radius: 5px;
+overflow: hidden;
+cursor: pointer;
+padding-left: 15px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.iinput111 {
+width: 450px;
+height: 100%;
+border: none;
+outline: none;
+font-size: 0.9em;
+caret-color: rgb(255, 81, 0);
+}
+
+.labelforsearch111 {
+cursor: text;
+padding: 0px 12px;
+}
+
+.pine-1{
+    text-align: center;
+    margin-top: 50px;
+}
+.pine-3{
+    color: royalblue;
+}
+.pine-4{
+    color: red;
+}
+
+.apple-333{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+    
+}
+
+@media (300px <= width <= 600px){
+    .apple-33{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+
+    .apple-333{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+
+    .InputContainerr1 {
+        height: 40px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        overflow: hidden;
+        cursor: pointer;
+        padding-left: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+}

@@ -1,0 +1,61 @@
+.InputContainerr {
+    height: 40px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    margin-left: 350px;
+    margin-top: 10px;
+  }
+  
+  .iinput11 {
+    width: 450px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+  }
+  
+  .labelforsearch11 {
+    cursor: text;
+    padding: 0px 12px;
+  }
+
+  @media (300px <= width <= 600px){
+    .InputContainerr {
+      height: 40px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      padding-left: 15px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+    .iinput11 {
+      width: 450px;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
+      caret-color: rgb(255, 81, 0);
+    }
+    
+    .labelforsearch11 {
+      cursor: text;
+      padding: 0px 12px;
+    }
+  }

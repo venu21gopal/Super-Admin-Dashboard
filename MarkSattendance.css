@@ -1,0 +1,105 @@
+
+
+  .inpuuut1 {
+    width: 380px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+    
+    margin-top: 10px;
+  }
+  .inpuuut11 {
+    width: 380px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .fiilee2{
+    margin-top: -18px;
+    margin-left: 10px;
+  }
+
+  .button33 {
+    background-color: royalblue;
+    width: 150px;
+    transition: none; 
+   margin-left: 500px; /* Remove transition effect */
+  }
+  
+  .button33:hover {
+    /* Remove hover effect */
+    background-color: royalblue;
+  }
+  
+  .prince{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  .prince h6{
+    padding-bottom: 12px;
+  }
+
+  @media (300px <= width <= 600px){
+    .inpuuut1 {
+      width: 300px;
+      padding: 5px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+      outline: none;
+      color: dimgray;
+      
+      margin-top: 10px;
+    }
+    .inpuuut11 {
+      width: 300px;
+      padding: 5px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+      outline: none;
+      color: dimgray;
+      margin-left: 5px;
+      margin-top: 10px;
+    }
+    .fiilee2{
+      margin-top: -18px;
+      margin-left: 10px;
+    }
+  
+    .button33 {
+      background-color: royalblue;
+      width: 150px;
+      transition: none; 
+     margin-left: 80px; /* Remove transition effect */
+    }
+    
+    .button33:hover {
+      /* Remove hover effect */
+      background-color: royalblue;
+    }
+    
+    .prince{
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      justify-content: center;
+      text-align: center;
+     
+    }
+    .prince h6{
+      padding-bottom: 12px;
+    }
+  }

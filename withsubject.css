@@ -1,0 +1,36 @@
+.cardss {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  
+  .cardss .redd {
+    background-color: #f43f5e;
+  }
+  
+  
+  
+  .cardss .cardd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 20px;
+  }
+  
+  .cardss .cardd h2.tipp {
+    font-size: 1em;
+    font-weight: 700;
+    
+  }
+  
+  /*cards*/
+    

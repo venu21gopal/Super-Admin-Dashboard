@@ -1,0 +1,89 @@
+.update {
+  color: #5e81f4;
+  margin: 10px auto; /* Center the card horizontally */
+text-align: center;
+}
+
+h5 {
+  font-size: 1.35rem;
+}
+
+.form-control {
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  display: block;
+  width: 90%; /* Adjust width for smaller screens */
+  max-width: 300px; /* Set maximum width */
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  margin: 0 auto; /* Center the input horizontally */
+}
+
+.field-icon {
+  float: right;
+  margin-right: 10%; /* Adjust margin for smaller screens */
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.buttonb {
+  border: none;
+  color: white;
+  padding: 10px 5%; /* Adjust padding for smaller screens */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+  margin: 30px auto; /* Center the button horizontally */
+  background-color: #5e81f4;
+}
+
+.account-total {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.account-total .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 90%; /* Adjust width for smaller screens */
+  max-width: 850px; /* Set maximum width */
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens if necessary */
+  .update {
+      margin-left: 5%;
+  }
+
+  .form-control,
+  .field-icon,
+  .buttonb,
+  .account-total .card {
+      width: 90%;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: 100px;
+  }
+}

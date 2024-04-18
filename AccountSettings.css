@@ -1,0 +1,90 @@
+.input6 {
+  width: 790px;
+  
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+  outline: none;
+  color: dimgray;
+}
+
+.display6 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 850px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 25px;
+}
+
+.display11 {
+  margin: 5px;
+  margin-left: 5px;
+}
+
+.display22 {
+  margin: 5px;
+  margin-left: 5px;
+}
+
+.button3 {
+  background-color: royalblue;
+  width: 200px;
+  transition: none; 
+  margin-left: 580px;/* Remove transition effect */
+}
+
+.button3:hover {
+  /* Remove hover effect */
+  background-color: royalblue;
+}
+
+@media (300px <= width <= 600px){
+  .input6 {
+    width: 300px;
+    
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+  }
+  
+  .display6 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 25px;
+  }
+  
+  .display11 {
+    margin: 5px;
+    margin-left: 5px;
+  }
+  
+  .display22 {
+    margin: 5px;
+    margin-left: 5px;
+  }
+  
+  .button3 {
+    background-color: royalblue;
+    width: 160px;
+    transition: none; 
+    margin-left: 60px;/* Remove transition effect */
+  }
+  
+  .button3:hover {
+    /* Remove hover effect */
+    background-color: royalblue;
+  }
+
+}

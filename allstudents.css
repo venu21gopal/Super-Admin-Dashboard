@@ -1,0 +1,219 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+.bodyy21{
+  margin-left: 100px;
+}
+
+.InputContainer {
+    height: 40px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .iinput {
+    width: 450px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+  }
+  
+  .labelforsearch {
+    cursor: text;
+    padding: 0px 12px;
+  }
+  
+  .searchIcon {
+    width: 13px;
+  }
+  
+  .border {
+    height: 40%;
+    width: 1.3px;
+    background-color: rgb(223, 223, 223);
+  }
+  
+  .inputtt6 {
+    width: 450px;
+    
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+    margin-top: 5px;
+  }
+  
+  
+  
+  
+  
+  .displayyy22 {
+    margin: 5px;
+    margin-left: 5px;
+  }
+
+  .ccards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  
+  .ccards .red {
+    background-color: #f43f5e;
+  }
+  
+  
+  
+  .ccards .ccard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 20px;
+  }
+  
+  .ccards .ccard h2.ttip {
+    font-size: 1em;
+    font-weight: 700;
+    
+  }
+  
+  .ttip h2{
+    margin-top: 100px;
+  }
+  /*cards*/
+  @media (300px <= width <= 600px){
+    .flex{
+      display: flex;
+      flex-direction: column;
+  
+  }
+  
+  
+  .InputContainer {
+      height: 40px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      padding-left: 15px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+      margin-left: 5px;
+      margin-top: 10px;
+    }
+    
+    .iinput {
+      width: 450px;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-size: 0.9em;
+      caret-color: rgb(255, 81, 0);
+    }
+    
+    .labelforsearch {
+      cursor: text;
+      padding: 0px 12px;
+    }
+    
+    .searchIcon {
+      width: 13px;
+    }
+    
+    .border {
+      height: 40%;
+      width: 1.3px;
+      background-color: rgb(223, 223, 223);
+    }
+    
+    .inputtt6 {
+      width: 300px;
+      
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+      outline: none;
+      color: dimgray;
+      margin-top: 5px;
+    }
+    
+    
+    
+    
+    
+    .displayyy22 {
+      margin: 5px;
+      margin-left: 5px;
+    }
+  
+    .ccards {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-top: 10px;
+      margin-left: 60px;
+    }
+    
+    .ccards .red {
+      background-color: #f43f5e;
+    }
+    
+    
+    
+    .ccards .ccard {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      height: 150px;
+      width: 150px;
+      border-radius: 100px;
+      color: white;
+      cursor: pointer;
+      transition: 400ms;
+      margin-left: 20px;
+    }
+    
+    .ccards .ccard h2.ttip {
+      font-size: 1em;
+      font-weight: 700;
+      
+    }
+    
+    .ttip h2{
+      margin-top: 100px;
+    }
+
+  }  
+
+  
